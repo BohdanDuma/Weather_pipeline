@@ -12,7 +12,7 @@ class WeatherDataClient:
         'Tokyo': (35.652832, 139.839478)
         }
     def _build_params(self, lat: float, lon: float) -> str:
-        
+        pass
 
     def fetch_raw_data(self, city_name: str) -> dict:
         response = requests.get(url)
@@ -36,7 +36,7 @@ print(temp)
 url_cordinates = 'https://ipapi.co/json/'
 response_self_cord = requests.get(url_cordinates)
 d_cord = response_self_cord.json()
-lat = data.get('latitude')
-lon = data.get('longitude')
-city = data.get('city')
-print(lat, lon)
+lat = d_cord.get('latitude')
+lon = d_cord.get('longitude')
+city = d_cord.get('city')
+print(city)
