@@ -7,10 +7,7 @@ class WeatherDataClient:
     
     def __init__(self, api_url: str):
         self.url = api_url
-        self.dict_city = {
-        'Kiyv': (50.4024, 30.5322),
-        'Tokyo': (35.652832, 139.839478)
-        }
+        self.dict_city = 
     def _build_params(self, lat: float, lon: float) -> str:
         pass
 
@@ -28,7 +25,8 @@ class WeatherDataClient:
         """
         pass
 url = "https://api.open-meteo.com/v1/forecast?latitude=49.83&longitude=23.94&current_weather=true"
-
+    def _get_location(self):
+        
 response = requests.get(url)
 data = response.json()
 temp = data['current_weather']['temperature']
