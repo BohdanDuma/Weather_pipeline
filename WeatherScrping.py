@@ -44,7 +44,7 @@ class WeatherDataClient:
             print("Can't extract weather")
         self.data = {'timestamp': datetime.now().isoformat(),'lat': loc["lat"],'lon': loc["lon"],'city': loc['city'],'temp': weather.get('temperature'),'windspeed': weather.get('windspeed')}
         return self.data
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     client = WeatherDataClient()
     final_result = client.get_weather_summary()
-    print(final_result)
+    print(final_result)'''
