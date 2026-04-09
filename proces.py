@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import platform
+from WeatherScrping import WeatherDataClient
 class DataProcessing:
     def __init__(self, dictionary):
         self.dictionary = dictionary
@@ -9,9 +10,9 @@ class DataProcessing:
         self.last_str = pd.DataFrame()
     def _load(self):
         self.df = pd.DataFrame([self.dictionary])
+        print(self.df.columns.tolist())
         try:
-
-            self.last_str = pd.read_json('last_state.json')
+            self.last_str = pd.read_json('last_state.json', orient='records')
             if self.last_str.empty:
                 self.state = False  
         except Exception as e:
@@ -21,6 +22,7 @@ class DataProcessing:
 
         
     def _compare_cur_last(self):
+        print(f"Доступні колонки: {self.df.columns.tolist()}")
         if not self.state:
             return self.df
         cur_time = pd.to_datetime(self.df['timestamp'].iloc[-1])
@@ -37,6 +39,7 @@ class DataProcessing:
             return self.df
          
     def _add_new_columns(self):
+        
         if  self._compare_cur_last() is not None:
             self.df['windy'] = np.where(self.df['windspeed'] > 10, 'Yes', 'No')
             self.df['platform'] = platform.node()
@@ -47,3 +50,7 @@ class DataProcessing:
         self._load()
         
         return self._add_new_columns()
+
+date_from_api = {'timestamp': '2026-04-09T21:37:34.286596', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 2.0, 'windspeed': 6.8}
+pandas_procesed = DataProcessing(date_from_api)
+final_pandas = pandas_procesed.run_all()
