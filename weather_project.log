@@ -1,0 +1,133 @@
+2026-04-10 10:52:57,268 [INFO] Try to take clients IP
+2026-04-10 10:52:57,781 [INFO] Conecting with free weather API
+2026-04-10 10:52:58,204 [INFO] Succsessful conection to weather  API's
+2026-04-10 10:52:58,205 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 10:52:58,212 [INFO] Added new columns (windy,platform)
+2026-04-10 11:14:56,379 [INFO] Try to take clients IP
+2026-04-10 11:14:56,840 [INFO] Conecting with free weather API
+2026-04-10 11:14:57,340 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:14:57,340 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:14:57,340 [ERROR] Attempt 1 failed
+2026-04-10 11:15:27,341 [INFO] Conecting with free weather API
+2026-04-10 11:15:32,730 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:15:32,730 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:15:32,730 [ERROR] Attempt 2 failed
+2026-04-10 11:16:02,731 [INFO] Conecting with free weather API
+2026-04-10 11:16:03,149 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:16:03,149 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:16:03,149 [ERROR] Attempt 3 failed
+2026-04-10 11:16:03,149 [WARNING] Date from API's empty. Verify connection
+2026-04-10 11:37:06,576 [INFO] Try to take clients IP
+2026-04-10 11:37:06,879 [INFO] Conecting with free weather API
+2026-04-10 11:37:07,220 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:37:07,220 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:37:07,220 [ERROR] Attempt 1 failed
+2026-04-10 11:37:37,220 [INFO] Conecting with free weather API
+2026-04-10 11:37:37,628 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:37:37,628 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:37:37,628 [ERROR] Attempt 2 failed
+2026-04-10 11:38:07,629 [INFO] Conecting with free weather API
+2026-04-10 11:38:07,968 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:38:07,968 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:38:07,969 [ERROR] Attempt 3 failed
+2026-04-10 11:38:07,969 [WARNING] Date from API's empty. Verify connection
+2026-04-10 11:39:03,726 [INFO] Try to take clients IP
+2026-04-10 11:39:04,108 [INFO] Conecting with free weather API
+2026-04-10 11:39:04,354 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:39:04,354 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:39:04,354 [ERROR] Attempt 1 failed
+2026-04-10 11:39:34,354 [INFO] Conecting with free weather API
+2026-04-10 11:39:34,655 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:39:34,655 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:39:34,655 [ERROR] Attempt 2 failed
+2026-04-10 11:40:04,656 [INFO] Conecting with free weather API
+2026-04-10 11:40:05,044 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:40:05,044 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:40:05,044 [ERROR] Attempt 3 failed
+2026-04-10 11:40:05,045 [WARNING] Date from API's empty. Verify connection
+2026-04-10 11:41:34,645 [INFO] Try to take clients IP
+2026-04-10 11:41:34,646 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-10 11:41:35,001 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 429 116
+2026-04-10 11:41:35,002 [INFO] Conecting with free weather API
+2026-04-10 11:41:35,002 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:41:35,254 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-10 11:41:35,254 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:41:35,254 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:41:35,255 [ERROR] Attempt 1 failed
+2026-04-10 11:42:05,255 [INFO] Conecting with free weather API
+2026-04-10 11:42:05,256 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:42:06,041 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-10 11:42:06,041 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:42:06,041 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:42:06,042 [ERROR] Attempt 2 failed
+2026-04-10 11:42:36,042 [INFO] Conecting with free weather API
+2026-04-10 11:42:36,042 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:42:36,345 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-10 11:42:36,345 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:42:36,345 [WARNING] Something wrong with acceptance from API
+2026-04-10 11:42:36,346 [ERROR] Attempt 3 failed
+2026-04-10 11:42:36,346 [WARNING] Date from API's empty. Verify connection
+2026-04-10 11:44:31,130 [INFO] Try to take clients IP
+2026-04-10 11:44:31,131 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-10 11:44:31,446 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-10 11:44:31,447 [INFO] Conecting with free weather API
+2026-04-10 11:44:31,448 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:44:31,692 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-10 11:44:31,692 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:44:31,693 [DEBUG] had {'timestamp': '2026-04-10T11:44:31.693057', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 3.5, 'windspeed': 5.4} info
+2026-04-10 11:44:31,693 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:44:58,340 [INFO] Try to take clients IP
+2026-04-10 11:44:58,341 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-10 11:44:58,784 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-10 11:44:58,785 [INFO] Conecting with free weather API
+2026-04-10 11:44:58,786 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:45:04,195 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-10 11:45:04,196 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:45:04,196 [DEBUG] had {'timestamp': '2026-04-10T11:45:04.196486', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 3.7, 'windspeed': 5.4} info
+2026-04-10 11:45:04,196 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:46:00,171 [INFO] Try to take clients IP
+2026-04-10 11:46:00,175 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-10 11:46:00,578 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-10 11:46:00,579 [INFO] Conecting with free weather API
+2026-04-10 11:46:00,579 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-10 11:46:00,827 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-10 11:46:00,827 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:46:00,827 [DEBUG] had {'timestamp': '2026-04-10T11:46:00.827867', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 3.7, 'windspeed': 5.4} info
+2026-04-10 11:46:00,827 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:46:00,829 [DEBUG] ['timestamp', 'lat', 'lon', 'city', 'temp', 'windspeed']
+2026-04-10 11:46:00,834 [INFO] Added new columns (windy,platform)
+2026-04-10 11:46:00,834 [INFO] Final local data frame complied
+2026-04-10 11:46:00,867 [DEBUG] This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2026-04-10 11:46:00,867 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-10 11:46:00,869 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-10 11:46:01,166 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-10 11:46:01,167 [DEBUG] Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2026-04-10 11:46:01,438 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/datasets/weather_monitor/tables/weather_stats?prettyPrint=false HTTP/1.1" 200 None
+2026-04-10 11:46:02,367 [DEBUG] https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/smart-seer-481909-d1/jobs?uploadType=multipart HTTP/1.1" 200 2223
+2026-04-10 11:46:02,540 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/d418981a-df57-486b-98b3-d8a8b8a72ac5?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-10 11:46:02,993 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/d418981a-df57-486b-98b3-d8a8b8a72ac5?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-10 11:46:04,058 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/d418981a-df57-486b-98b3-d8a8b8a72ac5?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-10 11:52:09,544 [INFO] Try to take clients IP
+2026-04-10 11:52:10,557 [INFO] Conecting with free weather API
+2026-04-10 11:52:10,811 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:52:10,811 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:52:10,819 [INFO] Added new columns (windy,platform)
+2026-04-10 11:52:10,819 [INFO] Final local data frame complied
+2026-04-10 11:52:10,856 [INFO] Welldone! Current state loaded to local csv
+2026-04-10 11:52:10,857 [WARNING] Problem 'NoneType' object has no attribute 'path' with bigquery
+2026-04-10 11:54:36,815 [INFO] Try to take clients IP
+2026-04-10 11:54:37,153 [INFO] Conecting with free weather API
+2026-04-10 11:54:37,394 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:54:37,394 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:54:37,402 [INFO] Added new columns (windy,platform)
+2026-04-10 11:54:37,402 [INFO] Final local data frame complied
+2026-04-10 11:54:37,435 [INFO] Welldone! Current state loaded to local csv
+2026-04-10 11:54:41,476 [INFO] Welldone! Current state loaded to BigQuery
+2026-04-10 11:55:31,952 [INFO] Try to take clients IP
+2026-04-10 11:55:32,378 [INFO] Conecting with free weather API
+2026-04-10 11:55:33,504 [INFO] Succsessful conection to weather  API's
+2026-04-10 11:55:33,504 [INFO] Succsessful get data extraction from weather  API's
+2026-04-10 11:55:33,511 [INFO] Added new columns (windy,platform)
+2026-04-10 11:55:33,511 [INFO] Final local data frame complied
+2026-04-10 11:55:33,575 [INFO] Welldone! Current state loaded to local csv
+2026-04-10 11:55:37,795 [INFO] Welldone! Current state loaded to BigQuery
