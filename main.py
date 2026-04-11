@@ -1,6 +1,7 @@
 from WeatherScrping import WeatherDataClient
 from proces import DataProcessing
 from storage import Storage
+import logging
 if __name__ == '__main__':
     
     '''new_data_from_api = {
@@ -10,15 +11,27 @@ if __name__ == '__main__':
         'windspeed': 9.0
     }
     '''
-    date_from_api = WeatherDataClient()
-    pandas_procesed = DataProcessing(date_from_api.get_weather_summary())
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s [%(levelname)s] %(message)s',
+        handlers=[
+            logging.FileHandler("weather_project.log"),
+            logging.StreamHandler()
+        ]
+    )
+    client = WeatherDataClient()
+    weather_data = client.get_weather_summary()
+    if weather_data is None:
+        logging.warning("Date from API's empty. Verify connection")
+        exit()
+
+    pandas_procesed = DataProcessing(weather_data)
     final_pandas = pandas_procesed.run_all()
-    
-   
     if final_pandas is not None:
+        logging.info("Final local data frame complied")
         storage = Storage(final_pandas)
         storage.to_csv() 
         storage.to_bigquery()
-       
     else:
-        print("data is duplicate")
+        logging.warning("data is duplicated")
+        exit()
