@@ -131,3 +131,195 @@
 2026-04-10 11:55:33,511 [INFO] Final local data frame complied
 2026-04-10 11:55:33,575 [INFO] Welldone! Current state loaded to local csv
 2026-04-10 11:55:37,795 [INFO] Welldone! Current state loaded to BigQuery
+2026-04-11 14:46:42,035 [INFO] Try to take clients IP
+2026-04-11 14:46:42,756 [INFO] Conecting with free weather API
+2026-04-11 14:46:43,366 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:46:43,366 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:46:43,367 [ERROR] Attempt 1 failed
+2026-04-11 14:47:13,368 [INFO] Conecting with free weather API
+2026-04-11 14:47:14,389 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:47:14,389 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:47:14,390 [ERROR] Attempt 2 failed
+2026-04-11 14:47:44,390 [INFO] Conecting with free weather API
+2026-04-11 14:47:44,734 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:47:44,735 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:47:44,735 [ERROR] Attempt 3 failed
+2026-04-11 14:47:44,735 [WARNING] Date from API's empty. Verify connection
+2026-04-11 14:48:16,005 [INFO] Try to take clients IP
+2026-04-11 14:48:16,401 [INFO] Conecting with free weather API
+2026-04-11 14:48:16,851 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:48:16,851 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:48:16,851 [ERROR] Attempt 1 failed
+2026-04-11 14:48:46,851 [INFO] Conecting with free weather API
+2026-04-11 14:48:47,069 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:48:47,069 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:48:47,069 [ERROR] Attempt 2 failed
+2026-04-11 14:49:17,069 [INFO] Conecting with free weather API
+2026-04-11 14:49:17,341 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:49:17,341 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:49:17,342 [ERROR] Attempt 3 failed
+2026-04-11 14:49:17,342 [WARNING] Date from API's empty. Verify connection
+2026-04-11 14:51:05,877 [INFO] Try to take clients IP
+2026-04-11 14:51:06,300 [INFO] Conecting with free weather API
+2026-04-11 14:51:06,524 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:51:06,524 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:51:06,524 [ERROR] Attempt 1 failed
+2026-04-11 14:51:36,525 [INFO] Conecting with free weather API
+2026-04-11 14:51:38,582 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:51:38,582 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:51:38,582 [ERROR] Attempt 2 failed
+2026-04-11 14:51:49,267 [INFO] Try to take clients IP
+2026-04-11 14:51:49,825 [INFO] Conecting with free weather API
+2026-04-11 14:51:50,074 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:51:50,074 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:51:50,074 [ERROR] Attempt 1 failed
+2026-04-11 14:52:20,075 [INFO] Conecting with free weather API
+2026-04-11 14:52:20,384 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:52:20,384 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:52:20,384 [ERROR] Attempt 2 failed
+2026-04-11 14:52:50,384 [INFO] Conecting with free weather API
+2026-04-11 14:52:50,617 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:52:50,618 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:52:50,618 [ERROR] Attempt 3 failed
+2026-04-11 14:52:50,618 [WARNING] Date from API's empty. Verify connection
+2026-04-11 14:53:00,077 [INFO] Try to take clients IP
+2026-04-11 14:53:00,078 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-11 14:53:00,865 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 429 116
+2026-04-11 14:53:00,866 [INFO] Conecting with free weather API
+2026-04-11 14:53:00,866 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 14:53:01,122 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-11 14:53:01,122 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:53:01,122 [DEBUG] Status Code: 200
+2026-04-11 14:53:01,122 [DEBUG] Raw Response: 
+2026-04-11 14:53:01,122 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:53:01,123 [ERROR] Attempt 1 failed
+2026-04-11 14:53:31,123 [INFO] Conecting with free weather API
+2026-04-11 14:53:31,124 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 14:53:31,273 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-11 14:53:31,274 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:53:31,274 [DEBUG] Status Code: 200
+2026-04-11 14:53:31,274 [DEBUG] Raw Response: 
+2026-04-11 14:53:31,274 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:53:31,274 [ERROR] Attempt 2 failed
+2026-04-11 14:54:01,275 [INFO] Conecting with free weather API
+2026-04-11 14:54:01,276 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 14:54:01,584 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?current_weather=true&timezone=auto HTTP/1.1" 200 8
+2026-04-11 14:54:01,584 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:54:01,584 [DEBUG] Status Code: 200
+2026-04-11 14:54:01,584 [DEBUG] Raw Response: 
+2026-04-11 14:54:01,584 [WARNING] Expecting value: line 1 column 1 (char 0)Something wrong with acceptance from API
+2026-04-11 14:54:01,585 [ERROR] Attempt 3 failed
+2026-04-11 14:54:01,585 [WARNING] Date from API's empty. Verify connection
+2026-04-11 14:57:45,312 [INFO] Try to take clients IP
+2026-04-11 14:57:45,313 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-11 14:57:46,234 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-11 14:57:46,236 [INFO] Conecting with free weather API
+2026-04-11 14:57:46,237 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 14:57:46,494 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-11 14:57:46,494 [INFO] Succsessful conection to weather  API's
+2026-04-11 14:57:46,494 [DEBUG] Status Code: 200
+2026-04-11 14:57:46,494 [DEBUG] Raw Response: {"latitude":49.837517,"longitude":24.01973,"generationtime_ms":0.12385845184326172,"utc_offset_seconds":10800,"timezone":"Europe/Kiev","timezone_abbreviation":"GMT+3","elevation":294.0,"current_weather_units":{"time":"iso8601","interval":"seconds","temperature":"°C","windspeed":"km/h","winddirection":"°","is_day":"","weathercode":"wmo code"},"current_weather":{"time":"2026-04-11T14:45","interval":900,"temperature":7.1,"windspeed":10.8,"winddirection":291,"is_day":1,"weathercode":3}}
+2026-04-11 14:57:46,495 [DEBUG] had {'timestamp': '2026-04-11T14:57:46.495161', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 7.1, 'windspeed': 10.8} info
+2026-04-11 14:57:46,495 [INFO] Succsessful get data extraction from weather  API's
+2026-04-11 14:57:46,497 [DEBUG] ['timestamp', 'lat', 'lon', 'city', 'temp', 'windspeed']
+2026-04-11 14:57:46,506 [INFO] Added new columns (windy,platform)
+2026-04-11 14:57:46,506 [INFO] Final local data frame complied
+2026-04-11 14:57:46,506 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 14:57:46,539 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 14:57:46,572 [INFO] Welldone! Current state loaded to local csv
+2026-04-11 14:57:46,573 [DEBUG] This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2026-04-11 14:57:46,573 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-11 14:57:46,574 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-11 14:57:46,868 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-11 14:57:46,869 [DEBUG] Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2026-04-11 14:57:47,182 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/datasets/weather_monitor/tables/weather_stats?prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 14:57:48,395 [DEBUG] https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/smart-seer-481909-d1/jobs?uploadType=multipart HTTP/1.1" 200 2223
+2026-04-11 14:57:48,632 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a0353603-350a-4214-8426-473d735577a6?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 14:57:49,290 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a0353603-350a-4214-8426-473d735577a6?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 14:57:49,731 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a0353603-350a-4214-8426-473d735577a6?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 14:57:52,371 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a0353603-350a-4214-8426-473d735577a6?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 14:57:52,371 [INFO] Welldone! Current state loaded to BigQuery
+2026-04-11 15:00:00,045 [INFO] Try to take clients IP
+2026-04-11 15:00:00,046 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-11 15:00:00,899 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-11 15:00:00,900 [INFO] Conecting with free weather API
+2026-04-11 15:00:00,901 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 15:00:11,171 [WARNING] HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=10)Something wrong with acceptance from API
+2026-04-11 15:00:11,171 [ERROR] Attempt 1 failed
+2026-04-11 15:00:41,172 [INFO] Conecting with free weather API
+2026-04-11 15:00:41,173 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 15:00:41,868 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-11 15:00:41,868 [INFO] Succsessful conection to weather  API's
+2026-04-11 15:00:41,869 [DEBUG] had {'timestamp': '2026-04-11T15:00:41.869124', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 7.1, 'windspeed': 11.2} info
+2026-04-11 15:00:41,869 [INFO] Succsessful get data extraction from weather  API's
+2026-04-11 15:00:41,870 [DEBUG] ['timestamp', 'lat', 'lon', 'city', 'temp', 'windspeed']
+2026-04-11 15:00:41,875 [INFO] Added new columns (windy,platform)
+2026-04-11 15:00:41,875 [INFO] Final local data frame complied
+2026-04-11 15:00:41,875 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:00:41,907 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:00:41,940 [INFO] Welldone! Current state loaded to local csv
+2026-04-11 15:00:41,940 [DEBUG] This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2026-04-11 15:00:41,940 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-11 15:00:41,942 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-11 15:00:42,210 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-11 15:00:42,211 [DEBUG] Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2026-04-11 15:00:42,657 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/datasets/weather_monitor/tables/weather_stats?prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:00:43,551 [DEBUG] https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/smart-seer-481909-d1/jobs?uploadType=multipart HTTP/1.1" 200 2223
+2026-04-11 15:00:43,811 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a2965ec5-031e-488f-bfe9-1c1a3b6d4a6b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:00:44,638 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a2965ec5-031e-488f-bfe9-1c1a3b6d4a6b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:00:46,401 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/a2965ec5-031e-488f-bfe9-1c1a3b6d4a6b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:00:46,401 [INFO] Welldone! Current state loaded to BigQuery
+2026-04-11 15:05:41,373 [INFO] Try to take clients IP
+2026-04-11 15:05:41,374 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-11 15:05:41,737 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 429 116
+2026-04-11 15:05:41,738 [WARNING] --- Warning: Using hardcoded location (Lviv) ---
+2026-04-11 15:05:41,738 [INFO] Conecting with free weather API
+2026-04-11 15:05:41,739 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 15:05:42,743 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.8383&longitude=24.0232&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-11 15:05:42,743 [INFO] Succsessful conection to weather  API's
+2026-04-11 15:05:42,744 [DEBUG] had {'timestamp': '2026-04-11T15:05:42.744173', 'lat': 49.8383, 'lon': 24.0232, 'city': 'Lviv (Manual)', 'temp': 7.1, 'windspeed': 11.2} info
+2026-04-11 15:05:42,744 [INFO] Succsessful get data extraction from weather  API's
+2026-04-11 15:05:42,745 [DEBUG] ['timestamp', 'lat', 'lon', 'city', 'temp', 'windspeed']
+2026-04-11 15:05:42,750 [INFO] Added new columns (windy,platform)
+2026-04-11 15:05:42,750 [INFO] Final local data frame complied
+2026-04-11 15:05:42,750 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:05:42,783 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:05:42,817 [INFO] Welldone! Current state loaded to local csv
+2026-04-11 15:05:42,818 [DEBUG] This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2026-04-11 15:05:42,818 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-11 15:05:42,820 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-11 15:05:43,197 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-11 15:05:43,198 [DEBUG] Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2026-04-11 15:05:43,701 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/datasets/weather_monitor/tables/weather_stats?prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:05:44,779 [DEBUG] https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/smart-seer-481909-d1/jobs?uploadType=multipart HTTP/1.1" 200 2223
+2026-04-11 15:05:44,974 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/515e8ace-2b69-4da4-a721-f4ba82e9af5b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:05:45,255 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/515e8ace-2b69-4da4-a721-f4ba82e9af5b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:05:46,477 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/515e8ace-2b69-4da4-a721-f4ba82e9af5b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:05:48,117 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/515e8ace-2b69-4da4-a721-f4ba82e9af5b?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:05:48,118 [INFO] Welldone! Current state loaded to BigQuery
+2026-04-11 15:06:22,068 [INFO] Try to take clients IP
+2026-04-11 15:06:22,069 [DEBUG] Starting new HTTPS connection (1): ipapi.co:443
+2026-04-11 15:06:22,440 [DEBUG] https://ipapi.co:443 "GET /json/ HTTP/1.1" 200 None
+2026-04-11 15:06:22,441 [INFO] Conecting with free weather API
+2026-04-11 15:06:22,442 [DEBUG] Starting new HTTPS connection (1): api.open-meteo.com:443
+2026-04-11 15:06:22,781 [DEBUG] https://api.open-meteo.com:443 "GET /v1/forecast?latitude=49.839&longitude=24.0191&current_weather=true&timezone=auto HTTP/1.1" 200 None
+2026-04-11 15:06:22,782 [INFO] Succsessful conection to weather  API's
+2026-04-11 15:06:22,782 [DEBUG] had {'timestamp': '2026-04-11T15:06:22.782593', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 7.1, 'windspeed': 11.2} info
+2026-04-11 15:06:22,782 [INFO] Succsessful get data extraction from weather  API's
+2026-04-11 15:06:22,783 [DEBUG] ['timestamp', 'lat', 'lon', 'city', 'temp', 'windspeed']
+2026-04-11 15:06:22,790 [INFO] Added new columns (windy,platform)
+2026-04-11 15:06:22,790 [INFO] Final local data frame complied
+2026-04-11 15:06:22,790 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:06:22,823 [DEBUG] Checking '/home/bohdan/Стільниця/Weather_project/credentials.json' for explicit credentials as part of auth process...
+2026-04-11 15:06:22,857 [INFO] Welldone! Current state loaded to local csv
+2026-04-11 15:06:22,857 [DEBUG] This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2026-04-11 15:06:22,857 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-04-11 15:06:22,860 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-04-11 15:06:23,221 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-04-11 15:06:23,222 [DEBUG] Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2026-04-11 15:06:23,449 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/datasets/weather_monitor/tables/weather_stats?prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:06:24,379 [DEBUG] https://bigquery.googleapis.com:443 "POST /upload/bigquery/v2/projects/smart-seer-481909-d1/jobs?uploadType=multipart HTTP/1.1" 200 2223
+2026-04-11 15:06:24,624 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/58338ace-6450-4209-ac6d-ce187e209f9e?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:06:25,642 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/58338ace-6450-4209-ac6d-ce187e209f9e?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:06:27,402 [DEBUG] https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/smart-seer-481909-d1/jobs/58338ace-6450-4209-ac6d-ce187e209f9e?projection=full&location=EU&prettyPrint=false HTTP/1.1" 200 None
+2026-04-11 15:06:27,402 [INFO] Welldone! Current state loaded to BigQuery

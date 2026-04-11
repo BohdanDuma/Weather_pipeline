@@ -14,3 +14,7 @@ timestamp,lat,lon,city,temp,windspeed,windy,platform
 2026-04-10T11:52:10.811390,49.839,24.0191,Lviv,3.7,5.4,No,bohdan-IdeaPad-Gaming-3-15ACH6
 2026-04-10T11:54:37.394516,49.839,24.0191,Lviv,3.7,5.4,No,bohdan-IdeaPad-Gaming-3-15ACH6
 2026-04-10T11:55:33.504853,49.839,24.0191,Lviv,3.7,5.4,No,bohdan-IdeaPad-Gaming-3-15ACH6
+2026-04-11T14:57:46.495161,49.839,24.0191,Lviv,7.1,10.8,Yes,bohdan-IdeaPad-Gaming-3-15ACH6
+2026-04-11T15:00:41.869124,49.839,24.0191,Lviv,7.1,11.2,Yes,bohdan-IdeaPad-Gaming-3-15ACH6
+2026-04-11T15:05:42.744173,49.8383,24.0232,Lviv (Manual),7.1,11.2,Yes,bohdan-IdeaPad-Gaming-3-15ACH6
+2026-04-11T15:06:22.782593,49.839,24.0191,Lviv,7.1,11.2,Yes,bohdan-IdeaPad-Gaming-3-15ACH6

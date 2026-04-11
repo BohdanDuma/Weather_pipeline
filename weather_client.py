@@ -8,19 +8,28 @@ class WeatherDataClient:
     def __repr__(self):
         return (f"{self.data}")
     def _fetch_location(self) -> tuple:
+
         try:
+
             logging.info('Try to take clients IP')
-            url_cordinates = 'https://ipapi.co/json/'
-            response_self_cord = requests.get(url_cordinates)
-            d_cord = response_self_cord.json()
-            return {
+            if response_self_cord.status_code == 200:
+                url_cordinates = 'https://ipapi.co/json/'
+                response_self_cord = requests.get(url_cordinates)
+                d_cord = response_self_cord.json()
+                logging.debug(d_cord)
+                return {
                 "lat": d_cord.get('latitude'),
                 "lon": d_cord.get('longitude'),
                 "city": d_cord.get('city')
-            }
+                }
+            
+            else:
+                logging.warning(f"IP API returned status{response_self_cord.status_code}")
+                return None
             
         except Exception as e:
             logging.warning("Can't take IP for client location")
+            logging.debug(d_cord)
             return None 
     def _fetch_raw_data(self, lat, lon) -> dict:
         try:
@@ -32,6 +41,7 @@ class WeatherDataClient:
                     "timezone": "auto"
                     }
             response = requests.get(url, params=param, timeout=10)
+
             if response.status_code == 200:
                 logging.info("Succsessful conection to weather  API's")
                 return response.json().get('current_weather')
@@ -42,7 +52,7 @@ class WeatherDataClient:
             return None
     def get_weather_summary(self):
         loc = self._fetch_location()
-        if loc is None:
+        if loc is None or not loc.get('lat') or not loc.get('lon'):
             logging.warning("--- Warning: Using hardcoded location (Lviv) ---")
             loc = {"lat": 49.8383, "lon": 24.0232, "city": "Lviv (Manual)"}
         atemps = 0   
