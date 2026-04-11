@@ -1,5 +1,5 @@
-from WeatherScrping import WeatherDataClient
-from proces import DataProcessing
+from weather_client import WeatherDataClient
+from processor import DataProcessing
 from storage import Storage
 import logging
 if __name__ == '__main__':

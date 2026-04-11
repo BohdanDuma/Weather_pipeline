@@ -48,7 +48,6 @@ class DataProcessing:
         return None
     def run_all(self):
         self._load()
-        
         return self._add_new_columns()
 
 '''date_from_api = {'timestamp': '2026-04-09T21:37:34.286596', 'lat': 49.839, 'lon': 24.0191, 'city': 'Lviv', 'temp': 2.0, 'windspeed': 6.8}
