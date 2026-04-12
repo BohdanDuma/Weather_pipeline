@@ -21,7 +21,7 @@ Stores structured data in BigQuery
 Logs execution and handles errors
 Can run automatically on a schedule
 
-🏗 Architecture
+## 🏗 Architecture
 Data Sources:
 Weather API (Open-Meteo)
 Geolocation API (IP-based)
@@ -34,14 +34,14 @@ Automation:
 Bash script
 Cron scheduling
 
-🚀 Key Features
+## 🚀 Key Features
 Automated pipeline – runs without manual intervention
 Error handling & retries – stable execution even if API fails
 Environment configuration – secure storage of credentials using .env
 Logging system – track execution and debug issues
 Fallback logic – handles API failures gracefully
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 Technology	Purpose
 Python	Core logic
 Pandas	Data transformation
@@ -50,7 +50,7 @@ Google BigQuery	Data storage
 Bash / Cron	Automation
 
 
-▶️ How to Run
+### ▶️ How to Run
 Clone the repository
 Install dependencies
 Create .env file (see .env.example)
@@ -62,19 +62,19 @@ You can run main.py using your scheduler.
 🔄 Automation
 The pipeline can be scheduled using cron to run automatically (e.g. every hour or daily).
 
-📦 Output
+## 📦 Output
 The pipeline generates:
 - Structured dataset (CSV or BigQuery table)
 - Clean and ready-to-use data
 - Automatically updated records
  Who This Is For
 
-This solution is useful for:
+# This solution is useful for:
 - marketers who need automated data collection
 - analysts who need clean datasets
 - businesses working with external data sources
 
-💡 Business Value
+## 💡 Business Value
 This solution helps to:
 - automate repetitive data collection
 - reduce manual work
